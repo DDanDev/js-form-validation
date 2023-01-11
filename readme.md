@@ -6,7 +6,13 @@ Currently, warns empty fields when form is submitted with red border and text wa
 
 Fields with anything in them get a green border.
 
-On Submit, opens new tab to send a message on WhatsApp. Demo implementation sends the message to the user's number but in js it is easy to update the related variable to a target number for actual usage. The whatsapp implementation is just for demo, the purpose of the repo is to work with custom form validation.
+____
+
+### For demo purposes only:
+
+On Submit, opens new tab to send a message on WhatsApp. Demo implementation sends the message to the user's number but in js it is easy to update the variable to a target number for actual usage. The whatsapp implementation is just for demo, the purpose of the repo is to work with custom form validation. To work properly with whatsapp, the target number must contain country code and full number.
+
+_____
 
 ## Next features
 
