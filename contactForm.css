@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: unset;
+	font-family: sans-serif;
+	outline: none;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+.contactFormContainer {
+	background-image: url(./imgs/bg-repeat.jpg);
+	background-size: contain;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5rem;
+}
+
+.contactFormDescription {
+	width: 23rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	color: #fff;
+}
+
+.contactFormDescription h2 {
+	text-transform: uppercase;
+}
+
+#contactFormFields {
+	background: #fdfdfd;
+
+	display: flex;
+	flex-direction: column;
+	/* gap: 0.5rem; */
+	justify-content: space-between;
+	height: 23rem;
+	padding: 1rem;
+
+	width: 23rem;
+}
+
+#contactFormFields * {
+	border-radius: 0.25rem;
+}
+
+.contactFormInputs {
+	border: solid 0.07rem;
+	border-color: black;
+	padding: 0.5rem;
+	font-size: 1rem;
+	width: 100%;
+
+	resize: none;
+
+	position: relative;
+}
+.contactFormInputs::placeholder {
+	color: #aaa;
+}
+
+.contactFormInputs:focus {
+	border-width: 0.1rem;
+}
+
+textarea.contactFormInputs {
+	height: 7rem;
+}
+
+#contactFormSubmit {
+	color: #fdfdfd;
+	background-color: #3bcc87;
+	border: none;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+#contactFormFields > p {
+	font-size: 0.8rem;
+}
+
+#contactFormFields > * {
+	position: relative;
+}
+
+small.verifyInput {
+	color: #dd1111;
+	font-size: 0.5rem;
+	position: absolute;
+	bottom: -0.55rem;
+	left: 0;
+}
+
+.contactFormInputs.verifyInput {
+	border-color: #dd1111;
+    border-width: 0.1rem;
+}
+
+.contactFormInputs.okayInput {
+    border-color: #00c22b;
+    border-width: 0.1rem;
+}
